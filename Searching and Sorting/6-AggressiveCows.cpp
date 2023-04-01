@@ -34,7 +34,6 @@ int largeMinimum_distance(int *arr, int C, int N){
     while (start < end){
         if(possibleDistance(mid,arr,C,N)){
             maxDistance = mid;
-            cout<<maxDistance<<" ";
             start = mid+1;
         }else{
             end = mid;
