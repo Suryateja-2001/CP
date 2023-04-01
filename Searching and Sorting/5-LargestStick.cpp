@@ -33,7 +33,7 @@ int maxHeight_Stick(int *arr,int totalSticks, int cuttingSticks){
             start = mid+1;
             mid = start + (end - start)/2;
         }else{
-            end = mid-1;
+            end = mid;
             mid = start + (end - start)/2;
         }
     }
